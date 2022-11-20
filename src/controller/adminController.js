@@ -1,8 +1,5 @@
 const model = require('../models/userModels')
 const courseModel = require('../models/courseModel')
-const validator = require("../validator/validator")
-const bcrypt = require('bcrypt')
-const jwt = require('jsonwebtoken')
 
 
 const createCourse = async (req, res) => {
